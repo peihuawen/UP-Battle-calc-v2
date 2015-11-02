@@ -1,0 +1,248 @@
+body {
+  font-family: verdana,arial;
+  font-size: 10px;
+  color: #aaa;
+  background-color: #1b1b1b;
+}
+#parahp, #paraatk, #paradef, #pararec, #paraspd, #parahp2, #paraatk2, #paradef2, #pararec2, #paraspd2, input {
+  width: 50px;
+  color: #548b78!important;
+  text-align: center;
+  font-family: verdana;
+  font-size:10px;
+}
+a {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  font-family: 'Open Sans', calibri, sans-serif;
+  font-size: 10px!important;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #549b78;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none!important;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  cursor: crosshair;
+}
+
+#atk,
+#hp,
+#def,
+#hea,
+#spd {
+  color: #458b78;
+}
+
+table.caltable tr td input {
+  width: 50px;
+  background-color: #1d1d1d;
+  border: 1px solid #333;
+  color: #888;
+}
+
+.caltable {
+  border-spacing: 5px;
+  border-collapse: separate;
+  text-align: center;
+  width: 100%;
+}
+
+table.caltable td {
+  background-color: #1b1b1b;
+  border: 1px solid #272727;
+  padding: 10px;
+  font-family: verdana, arial;
+  font-size: 10px;
+}
+
+div.avatar-wrapper img {
+  max-height: 110px;
+  max-width: 150px;
+  border: 5px solid #161616;
+}
+
+table.caltable tr td select,
+select {
+  background-color: #1d1d1d;
+  font-family: calibri;
+  font-size: 10px;
+  text-transform: uppercase!important;
+  color: #548b78;
+  border: 1px solid #222!important;
+}
+
+ol#instruc {
+  list-style-type: decimal;
+  margin: 0px 30px 0px 30px;
+}
+
+.battlecalc {
+  background-color: #232323;
+  padding: 20px;
+  width: 800px;
+  text-align: left;
+}
+
+.battlecalc h1 {
+  font-family: 'Open Sans', calibri, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #aaa;
+  font-weight: normal;
+  border-bottom: 1px solid #548b78;
+}
+
+.battlecalc h1:first-letter {
+  color: #548b78;
+}
+
+.battlecontent {
+  margin-top: 20px;
+}
+
+.stattable {
+  border-collapse: separate;
+  border-spacing: 5px;
+  font-family: verdana, arial;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.stattable td {
+  background-color: #1b1b1b;
+  border: 1px solid #2f2f2f;
+  padding: 5px;
+}
+
+.userinfo {
+  text-align: center;
+}
+
+.userinfo td h1 {
+  font-family: 'Open Sans', calibri, sans-serif;
+  text-align: right;
+  font-size: 13px;
+  color: #aaa;
+  border-color: #548b78;
+  text-transform: uppercase!important;
+  font-size: 16px;
+}
+.userinfo td h1:first-letter {
+  color: #548b78;
+}
+
+div.avatar-wrapper {
+  border: 1px solid #438b78!important;
+  padding: 5px;
+  background-color: #161616;
+}
+
+.caltable td h1,
+.caltable th h1 {
+  color: #548b78;
+  font-size: 13px;
+}
+
+.meow {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.meow {
+  width: 300px;
+  text-align: justify;
+  padding: 20px;
+  background-color: #1B1B1B;
+  border: 1px solid #292929;
+  font-family: Verdana, arial;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.meow h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #548b78;
+  padding-left: 10px;
+}
+
+.meow u {
+  text-transform: uppercase;
+  color: #548b78;
+  text-decoration: none;
+}
+
+.meow b {
+  color: #548b78;
+}
+
+.meow h2 img {
+  float: left;
+  background-color: #232323;
+  border: 1px solid #333;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 0px 10px 8px 0px;
+}
+
+.meow h2 {
+  font-family: 'Open Sans', calibri, sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.meow h3 {
+  font-family: helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #548b78;
+}
+
+.meow h4 {
+  font-family: 'Open Sans', calibri, sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #548b78;
+  text-align: right;
+}
+
+.meow p {
+  margin: 5px 20px 0px 20px;
+}
+
+.meow td {
+  background-color: #232323;
+  border: 1px solid #333;
+  padding: 3px;
+}
+#level-tabs a {
+    background-color: #1b1b1b;
+    padding: 5px;
+    text-align: center;
+    margin: 0px -1px 20px 0px;
+    border: 1px solid #2f2f2f;
+    transition: 0.5s ease-in-out;
+    color: #548b78!important;
+}
+#level-tabs a.selected {
+    background-color: #232323;
+    transition: 0.5s ease-in-out;
+}
+.statswap {
+	font-family: verdana, arial;
+	font-size: 10px;
+}
